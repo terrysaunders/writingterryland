@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+header {
+	display:block;
+	background-color: black;
+	margin-left:10%;
+	width:80%;
+	height:10%;	
+}
+
+nav {
+	padding-top:7%;
+	color: white;
+}
+
+nav ul {
+	list-style: none;	
+}
+
+nav li {
+	width:150px;
+	float:left;
+}
+
+footer {
+	
+		
+	
+}
+
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	padding: 0 auto -5%; /* the bottom margin is the negative value of the footer's height */
+}
+.footer .push {
+	height: 5%; /* .push must be the same height as .footer */
+	width:80%;
+	height:5%;	
+	background-color: black;
+	display:block;
+	margin-left:10%;
+
+}
